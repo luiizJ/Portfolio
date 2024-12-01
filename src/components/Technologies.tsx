@@ -10,15 +10,15 @@ import { headerExperienceAni } from "@/animation/Motion";
 
 
 const icons = [
-  <RiReactjsFill style={{ color: "#61DAFB" }} />,
-  <BiLogoTypescript style={{ color: "#3178C6" }} />,
-  <RiTailwindCssFill style={{ color: "#38BDF8" }} />,
-  <SiStyledcomponents style={{ color: "#DB7093" }} />,
-  <TbBrandNextjs />,
-  <FaNodeJs className="text-green-500" />,
-  <SiDotnet style={{ color: "#512BD4" }} />,
-  <BiLogoPostgresql className="text-sky-700" />,
-  <FcLinux />,
+  { id: "react", icon: <RiReactjsFill style={{ color: "#61DAFB" }} /> },
+  { id: "typescript", icon: <BiLogoTypescript style={{ color: "#3178C6" }} /> },
+  { id: "tailwind", icon: <RiTailwindCssFill style={{ color: "#38BDF8" }} /> },
+  { id: "styled", icon: <SiStyledcomponents style={{ color: "#DB7093" }} /> },
+  { id: "nextjs", icon: <TbBrandNextjs /> },
+  { id: "node", icon: <FaNodeJs className="text-green-500" /> },
+  { id: "dotnet", icon: <SiDotnet style={{ color: "#512BD4" }} /> },
+  { id: "postgres", icon: <BiLogoPostgresql className="text-sky-700" /> },
+  { id: "linux", icon: <FcLinux /> },
 ];
 
 export const Technologies = () => {
@@ -41,11 +41,11 @@ export const Technologies = () => {
         >
           {[...icons, ...icons].map((icon, index) => (
             <div
-              key={index}
+              key={`${icon.id}-${index}`}
               className="flex justify-center items-center text-7xl p-4 border-4 border-neutral-800 rounded-2xl"
               style={{ minWidth: "100px" }}
             >
-              {icon}
+              {icon.icon}
             </div>
           ))}
         </motion.div>
