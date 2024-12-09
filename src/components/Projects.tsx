@@ -2,6 +2,7 @@
 import { aboutAni, headerExperienceAni } from "@/animation/Motion";
 import { PROJECTS } from "@/constants"
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const Projects = () => {
   return (
@@ -13,10 +14,10 @@ export const Projects = () => {
           {...aboutAni}
             key={proj.id} 
             className="flex flex-col items-center rounded-lg border border-neutral-800 p-4">
-            <img
+            <Image
               src={proj.image}
-              width={150}
-              height={150}
+              width={350}
+              height={450}
               alt={proj.title}
               className="mb-4 rounded"
             />

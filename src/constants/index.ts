@@ -1,7 +1,6 @@
-// import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project1.png";
+import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.png";
 import type { final } from "@/Types/footer";
 import type { Experience } from "@/Types/experiences";
 import type { Project } from "@/Types/projects";
@@ -61,25 +60,25 @@ export const PROJECTS: Project[] = [
   {
     id:0,
     title: "Pequeno E-Commerce Website",
-    image: "str",
+    image: project1,
     description:
-      "Em Produção",
+      "Um Pequeno ecomerce em desenvolvimento, atualmente com funcionabilidades basicas, em breve paginas de checking e chekout",
     technologies: ["React", "Typescript",],
   },
   {
     id:1,
-    title: "Task Management App",
-    image: "str",
-    description:"Em Produção",
+    title: "Hamburgeria",
+    image: project3,
+    description:"Este é uma hamburgueria que estou passando de html, css e javascript, para react e adicionando novas interações e um novo cardapio para pizzas",
     technologies: ["React", "Scss", "Typescript",],
   },
   {
     id:2,
-    title: "Portfolio",
-    image:"str",
+    title: "Antigo Portfolio",
+    image: project2,
     description:
-      "Em Produção",
-    technologies: ["HTML", "CSS", "Bootstrap"],
+      "Meu antigo portfolio, O primeiro que eu fiz utilizando html,css e javascript para fazer algumas interações e animações",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
 ];
 

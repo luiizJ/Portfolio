@@ -1,7 +1,9 @@
+import type { StaticImageData } from "next/image";
+
 export interface Project {
   id: number;
   title: string;
-  image: string; // Ajuste se usar outro tipo de importação de imagem
+  image: string | StaticImageData; 
   description: string;
   technologies: string[];
 }
