@@ -67,10 +67,10 @@ export const PROJECTS: Project[] = [
   },
   {
     id:1,
-    title: "Hamburgeria",
+    title: "FastFood",
     image: project3,
-    description:"Este é uma hamburgueria que estou passando de html, css e javascript, para react e adicionando novas interações e um novo cardapio para pizzas",
-    technologies: ["React", "Scss", "Typescript",],
+    description:" Desenvolvi um Sistema de Pedidos Online que simula uma aplicação completa para restaurantes. Utilizei tecnologias modernas para garantir uma experiência eficiente, bonita e responsiva.",
+    technologies: ["React", "TailwindCSS", "Typescript", "ShadCN", "Zod"],
   },
   {
     id:2,
