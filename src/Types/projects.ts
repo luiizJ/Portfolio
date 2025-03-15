@@ -6,4 +6,5 @@ export interface Project {
   image: string | StaticImageData; 
   description: string;
   technologies: string[];
+  link: string;
 }

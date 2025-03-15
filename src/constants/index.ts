@@ -64,6 +64,7 @@ export const PROJECTS: Project[] = [
     description:
       "Um Pequeno ecomerce em desenvolvimento, atualmente com funcionabilidades basicas, em breve paginas de checking e chekout",
     technologies: ["React", "Typescript",],
+    link:"https://ecommerce-puce-rho.vercel.app/"
   },
   {
     id:1,
@@ -71,6 +72,7 @@ export const PROJECTS: Project[] = [
     image: project3,
     description:" Desenvolvi um Sistema de Pedidos Online que simula uma aplicação completa para restaurantes. Utilizei tecnologias modernas para garantir uma experiência eficiente, bonita e responsiva.",
     technologies: ["React", "TailwindCSS", "Typescript", "ShadCN", "Zod"],
+     link:"https://sistema-de-pedidos-wine.vercel.app/"
   },
   {
     id:2,
@@ -79,6 +81,7 @@ export const PROJECTS: Project[] = [
     description:
       "Meu antigo portfolio, O primeiro que eu fiz utilizando html,css e javascript para fazer algumas interações e animações",
     technologies: ["HTML", "CSS", "Javascript"],
+     link:""
   },
 ];
 

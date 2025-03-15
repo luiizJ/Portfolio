@@ -3,6 +3,7 @@ import { aboutAni, headerExperienceAni } from "@/animation/Motion";
 import { PROJECTS } from "@/constants"
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Projects = () => {
   return (
@@ -14,13 +15,15 @@ export const Projects = () => {
           {...aboutAni}
             key={proj.id} 
             className="flex flex-col items-center rounded-lg border border-neutral-800 p-4">
-            <Image
+           <Link href={proj.link}>
+           <Image
               src={proj.image}
               width={350}
               height={450}
               alt={proj.title}
               className="mb-4 rounded"
             />
+           </Link>
             <h6 className="mb-2 text-lg font-semibold text-white">
               {proj.title}
             </h6>
