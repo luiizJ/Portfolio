@@ -20,10 +20,14 @@ export const Projects = () => {
           <div key={index} className="h-full">
             <motion.div
               {...aboutAni}
-              className="flex flex-col h-full items-center rounded-lg border border-neutral-800 p-4"
+              className="flex flex-col h-full items-center rounded-lg border border-neutral-800 p-4 hover:border-neutral-600 transition-colors"
             >
-              <Link href={proj.link} target="_blank" rel="noopener noreferrer">
-                {" "}
+              <Link
+                href={proj.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Ver projeto ${proj.title}`}
+              >
                 <Image
                   src={proj.image}
                   width={350}
@@ -31,12 +35,13 @@ export const Projects = () => {
                   alt={proj.title}
                   className="mb-4 rounded"
                   style={{ width: "100%", height: "auto" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </Link>
 
-              <h6 className="mb-2 text-lg font-semibold text-white">
+              <h3 className="mb-2 text-lg font-semibold text-white">
                 {proj.title}
-              </h6>
+              </h3>
 
               <p className="mb-4 text-sm text-neutral-400 text-center flex-grow">
                 {proj.description}
