@@ -5,83 +5,105 @@ import type { final } from "@/Types/footer";
 import type { Experience } from "@/Types/experiences";
 import type { Project } from "@/Types/projects";
 
-export const SOBRE: string = `Sou um desenvolvedor dedicado a criar aplicações web robustas
- e escaláveis e venho aprimorando minhas habilidades em front-end, utilizando React, Typescript e TailwindCSS, 
- e em back-end, explorando Node.js, MySQL e PostgreSQL. 
- Meu objetivo é aplicar meus conhecimentos para desenvolver soluções inovadoras que agreguem 
- valor ao mercado e proporcionem boas experiências aos usuários e estou sempre buscando o aprendizado contínuo.`;
+export const SOBRE: string = `Analista de Sistemas em formação com foco em criar ecossistemas digitais de alta performance. 
+Especialista na construção de interfaces modernas com React, TypeScript e TailwindCSS, com sólida compreensão de arquitetura Backend 
+utilizando Node.js e Bancos de Dados Relacionais. Meu diferencial é unir design system consistente com código limpo e escalável, 
+sempre focado na experiência do usuário e nas melhores práticas de SEO e Acessibilidade.`;
 
-export const ABOUT_TEXT: string = `Sou um desenvolvedor front-end apaixonado por criar 
-experiências digitais que sejam funcionais, acessíveis e visualmente agradáveis. 
-Minha trajetória na tecnologia começou com curiosidade e evoluiu para um compromisso 
-constante com aprendizado e inovação. Trabalho com React, TypeScript e TailwindCSS 
-para criar interfaces modernas e dinâmicas, além de explorar o backend com Node.js e 
-bancos de dados como MySQL e PostgreSQL. Também possuo conhecimentos em Linux, como 
-instalação, configuração e resolução de problemas, o que complementa minha versatilidade técnica.
-Recentemente, tenho ampliado minhas habilidades com C# e .NET, desenvolvendo soluções
-robustas e escaláveis.`;
+export const ABOUT_TEXT: string = `Minha jornada na tecnologia é guiada pela busca incessante por qualidade de código e impacto visual. 
+Atuo no desenvolvimento Fullstack, orquestrando interfaces dinâmicas com o ecossistema React (Next.js) e construindo APIs robustas em Node.js. 
+Tenho proficiência em administração de sistemas Linux, o que me permite ter autonomia total na configuração de ambientes e deploy.
+Atualmente, estou expandindo minha stack para o ecossistema .NET (C#), visando atuar em grandes arquiteturas corporativas.`;
 
 export const EXPERIENCES: Experience[] = [
   {
-    id:0,
-    year: "2024 - Present",
-    role: "Desenvolvedor Front-End",
-    company: "Projetos Pessoais",
-    description: "Atualmente, estou desenvolvendo projetos pessoais, incluindo sites de portfólio e pequenas aplicações web. Utilizo principalmente React, TypeScript e TailwindCSS. Em algumas dessas aplicações, implementei o uso de **LocalStorage** para armazenar preferências do usuário e dados temporários, proporcionando uma melhor experiência sem a necessidade de interações constantes com o servidor.",
-    technologies: ["React", "TypeScript", "TailwindCSS", "LocalStorage"]
-  },  
-    {
-      id:1,
-      year: "2024",
-      role: "Suporte Técnico e Resolução de Problemas em Linux",
-      company: "Projetos Pessoais e Freelance",
-      description: "Tenho experiência em instalação, configuração e resolução de problemas no Linux, especialmente com distros como o Linux Mint. Resolvi questões relacionadas ao desempenho de sistemas, rede, e instalação de ferramentas de desenvolvimento.",
-      technologies: ["Linux Mint", "Resolução de Problemas", "Configuração de Ambiente"]
-    },
-    {
-      id:2,
-      year: "2023 - 2024",
-      role: "Desenvolvedor Front-End / Projetos Freelancer",
-      company: "Freelancer",
-      description: "Trabalhei em projetos de clientes, criando interfaces responsivas e escaláveis. Utilizei React, SCSS, e também implementei integrações com APIs externas. Fui responsável pela entrega pontual de interfaces que atendem às necessidades dos clientes.",
-      technologies: ["HTML/CSS", "React", "SCSS", "API Integration", "JavaScript"]
-    },
-    {
-      id:3,
-      year: "2023 - 2024",
-      role: "Desenvolvedor Full Stack (Projetos Pessoais)",
-      company: "Projetos Pessoais",
-      description: "Desenvolvi e mantive aplicações completas, utilizando Node.js e Express no backend, além de React e Next.js no frontend. Trabalhei com bancos de dados como MySQL e PostgreSQL para persistência de dados, e implementei autenticação de usuários e gerenciamento de sessões.",
-      technologies: ["Node.js", "Express", "React", "MySQL", "PostgreSQL"]
-    },
-  ]
+    id: 0,
+    year: "2024 - Presente",
+    role: "Desenvolvedor Frontend & Software Engineer",
+    company: "Laboratório de Projetos & Open Source",
+    description:
+      "Desenvolvimento e arquitetura de aplicações web modernas focadas em performance (Core Web Vitals). Implementação de estratégias de renderização (SSR/CSR) com Next.js, gestão de estado complexa e persistência local para otimização de requisições. Foco em criar interfaces pixel-perfect e acessíveis.",
+    technologies: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Performance Optimization",
+    ],
+  },
+  {
+    id: 1,
+    year: "2024",
+    role: "Analista de Suporte & Infraestrutura Linux",
+    company: "Consultoria Freelance",
+    description:
+      "Diagnóstico e resolução de problemas críticos em ambientes Linux (Mint/Debian). Responsável pela configuração de ambientes de desenvolvimento, otimização de rede e scripts de automação. Atuação direta na manutenção preventiva de sistemas e hardening de segurança básica.",
+    technologies: [
+      "Linux Mint",
+      "Shell Scripting",
+      "Networking",
+      "System Administration",
+    ],
+  },
+  {
+    id: 2,
+    year: "2023 - 2024",
+    role: "Desenvolvedor Frontend Freelancer",
+    company: "Freelancer",
+    description:
+      "Entrega de soluções web personalizadas para clientes, focando em responsividade e fidelidade ao design. Integração de interfaces com APIs RESTful externas, tratamento de erros e feedback visual ao usuário. Desenvolvimento ágil com foco em prazos e qualidade de entrega.",
+    technologies: [
+      "React",
+      "SCSS",
+      "Axios/Fetch API",
+      "Git Flow",
+      "Responsive Design",
+    ],
+  },
+  {
+    id: 3,
+    year: "2023 - 2024",
+    role: "Desenvolvedor Full Stack",
+    company: "Projetos Acadêmicos & Pessoais",
+    description:
+      "Arquitetura de sistemas completos (End-to-End). No Backend: desenvolvimento de APIs REST com Node.js/Express, modelagem de dados SQL (MySQL/PostgreSQL) e implementação de autenticação segura (JWT). No Frontend: consumo de dados e gerenciamento de rotas privadas.",
+    technologies: [
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "JWT Auth",
+      "Database Modeling",
+    ],
+  },
+];
 
 export const PROJECTS: Project[] = [
   {
-    id:0,
-    title: "Pequeno E-Commerce Website",
+    id: 0,
+    title: "FastFood Delivery App",
+    image: project3,
+    description:
+      "Aplicação completa de pedidos simulando um ambiente real de produção. Focado em validação de dados (Zod) e componentes de interface reutilizáveis (ShadCN). Possui carrinho de compras dinâmico e fluxo de checkout otimizado.",
+    technologies: ["React", "TypeScript", "TailwindCSS", "Zod", "ShadCN UI"],
+    link: "https://sistema-de-pedidos-wine.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "E-Commerce Concept",
     image: project1,
     description:
-      "Um Pequeno ecomerce em desenvolvimento, atualmente com funcionabilidades basicas, em breve paginas de checking e chekout",
-    technologies: ["React", "Typescript",],
-    link:"https://ecommerce-puce-rho.vercel.app/"
+      "Plataforma de comércio digital em desenvolvimento, focada em escalabilidade. Arquitetura preparada para integração com gateways de pagamento e gestão de inventário. Implementação de boas práticas de roteamento e gestão de estado global.",
+    technologies: ["React", "TypeScript", "State Management", "API REST"],
+    link: "https://ecommerce-puce-rho.vercel.app/",
   },
   {
-    id:1,
-    title: "FastFood",
-    image: project3,
-    description:" Desenvolvi um Sistema de Pedidos Online que simula uma aplicação completa para restaurantes. Utilizei tecnologias modernas para garantir uma experiência eficiente, bonita e responsiva.",
-    technologies: ["React", "TailwindCSS", "Typescript", "ShadCN", "Zod"],
-     link:"https://sistema-de-pedidos-wine.vercel.app/"
-  },
-  {
-    id:2,
-    title: "Antigo Portfolio",
+    id: 2,
+    title: "Legacy Portfolio",
     image: project2,
     description:
-      "Meu antigo portfolio, O primeiro que eu fiz utilizando html,css e javascript para fazer algumas interações e animações",
-    technologies: ["HTML", "CSS", "Javascript"],
-     link:""
+      "Projeto marco inicial da minha carreira. Desenvolvido com tecnologias puras (Vanilla JS) para consolidar os fundamentos da web: manipulação do DOM, CSS Grid/Flexbox e animações nativas sem dependência de frameworks.",
+    technologies: ["HTML5", "CSS3", "Vanilla JavaScript", "DOM Manipulation"],
+    link: "", // Se tiver o link antigo, coloque aqui, senão deixe vazio
   },
 ];
 
