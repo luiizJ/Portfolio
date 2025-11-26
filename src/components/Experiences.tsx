@@ -24,20 +24,20 @@ const Experiences = () => {
               className="flex flex-wrap w-full lg:justify-center" // Repassamos classes de layout interno se necessário
             >
               <div className="w-full lg:w-1/4">
-                <p className="mb-2 text-sm text-neutral-400">
+                <p className="mb-2 text-sm text-neutral-300">
                   {experience.year}
                 </p>
               </div>
 
               <div className="w-full max-w-2xl lg:w-3/4">
-                <h6 className="mb-2 font-semibold">
+                <h3 className="mb-2 font-semibold">
                   {experience.role} -{" "}
                   <span className="text-sm text-purple-200">
                     {experience.company}
                   </span>
-                </h6>
+                </h3>
 
-                <p className="mb-4 text-neutral-400">
+                <p className="mb-4 text-neutral-300">
                   {experience.description}
                 </p>
 

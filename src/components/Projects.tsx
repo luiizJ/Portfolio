@@ -43,7 +43,7 @@ export const Projects = () => {
                 {proj.title}
               </h3>
 
-              <p className="mb-4 text-sm text-neutral-400 text-center flex-grow">
+              <p className="mb-4 text-sm text-neutral-300 text-center flex-grow">
                 {proj.description}
               </p>
 

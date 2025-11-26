@@ -81,7 +81,7 @@ export const Technologies = () => {
               <div className="text-6xl mb-2"> {item.icon}</div>
 
               {/* Texto Visível */}
-              <span className="text-sm font-medium text-neutral-400">
+              <span className="text-sm font-medium text-neutral-300">
                 {item.name}
               </span>
             </div>

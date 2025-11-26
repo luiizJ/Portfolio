@@ -5,15 +5,8 @@ import type { final } from "@/Types/footer";
 import type { Experience } from "@/Types/experiences";
 import type { Project } from "@/Types/projects";
 
-export const SOBRE: string = `Analista de Sistemas em formação com foco em criar ecossistemas digitais de alta performance. 
-Especialista na construção de interfaces modernas com React, TypeScript e TailwindCSS, com sólida compreensão de arquitetura Backend 
-utilizando Node.js e Bancos de Dados Relacionais. Meu diferencial é unir design system consistente com código limpo e escalável, 
-sempre focado na experiência do usuário e nas melhores práticas de SEO e Acessibilidade.`;
-
-export const ABOUT_TEXT: string = `Minha jornada na tecnologia é guiada pela busca incessante por qualidade de código e impacto visual. 
-Atuo no desenvolvimento Fullstack, orquestrando interfaces dinâmicas com o ecossistema React (Next.js) e construindo APIs robustas em Node.js. 
-Tenho proficiência em administração de sistemas Linux, o que me permite ter autonomia total na configuração de ambientes e deploy.
-Atualmente, estou expandindo minha stack para o ecossistema .NET (C#), visando atuar em grandes arquiteturas corporativas.`;
+export const SOBRE: string = `Graduando em Análise e Desenvolvimento de Sistemas com foco na criação de ecossistemas digitais de alta performance. Especializado na construção de interfaces modernas com React, TypeScript e TailwindCSS, aliada a uma sólida compreensão de arquitetura Backend com Node.js e Bancos de Dados Relacionais. Meu diferencial é unir Design System consistente com código limpo e escalável, priorizando a experiência do usuário e as melhores práticas de SEO e Acessibilidade.`;
+export const ABOUT_TEXT: string = `Minha jornada na tecnologia é guiada pela busca incessante por qualidade de código e impacto visual. Atuo no desenvolvimento Fullstack, construindo interfaces dinâmicas de alta performance com o ecossistema React (Next.js) e APIs escaláveis em Node.js. Tenho proficiência em administração de sistemas Linux, o que me permite ter autonomia na configuração de ambientes e deploy. Atualmente, estou focado em dominar conceitos mais avançados de Backend e aprimorar minhas habilidades no ecossistema JavaScript, enquanto traço meu roadmap para o desenvolvimento com Java, visando sistemas de larga escala.`;
 
 export const EXPERIENCES: Experience[] = [
   {
@@ -80,7 +73,7 @@ export const EXPERIENCES: Experience[] = [
 export const PROJECTS: Project[] = [
   {
     id: 0,
-    title: "FastFood Delivery App",
+    title: "FastFood Delivery",
     image: project3,
     description:
       "Aplicação completa de pedidos simulando um ambiente real de produção. Focado em validação de dados (Zod) e componentes de interface reutilizáveis (ShadCN). Possui carrinho de compras dinâmico e fluxo de checkout otimizado.",
@@ -103,7 +96,7 @@ export const PROJECTS: Project[] = [
     description:
       "Projeto marco inicial da minha carreira. Desenvolvido com tecnologias puras (Vanilla JS) para consolidar os fundamentos da web: manipulação do DOM, CSS Grid/Flexbox e animações nativas sem dependência de frameworks.",
     technologies: ["HTML5", "CSS3", "Vanilla JavaScript", "DOM Manipulation"],
-    link: "", // Se tiver o link antigo, coloque aqui, senão deixe vazio
+    link: "https://luiizj.github.io/",
   },
 ];
 
